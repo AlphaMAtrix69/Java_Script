@@ -36,4 +36,4 @@ const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
 
-//In splice original array is maniputlated ,mentioned array portion is printed differently  
+//In splice original array is maniputlated ,mentioned array portion is printed differently & original array is manipulated
