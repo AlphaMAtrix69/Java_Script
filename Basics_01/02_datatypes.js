@@ -19,5 +19,5 @@ let isUser = true //boolean type
 
 //object 
 
-console.log(typeof undefined); //undefined
+console.log(typeof undefined); //undefined - it is a different type
 console.log(typeof null); //object 
