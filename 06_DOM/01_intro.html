@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>DOM</title>
+    <style>
+        .bg-black{
+            background-color: black;
+            color:aliceblue;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM learning <span style="display: none;"> gsdfhsdn </span> </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rerum suscipit nihil veritatis asperiores quisquam quas. Consequuntur corporis nihil saepe omnis impedit fugiat iure doloribus, aliquid harum beatae aliquam laudantium.</p>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+<!-- console.log(document) returns all objects of file  -->
+<!-- DOM manipulation in JavaScript allows you to access and manipulate web page elements. -->
+<!-- console.log(document.baseURI) returns base URL of file -->
+<!-- console.log(document.links) returns all links used of file in HTMLcollection -->
+
+
+<!-- DOM manipulation allows you to change the values and structure of a webpage using JavaScript. -->
+<!-- document.getElementbyId('firstheading') Returns element of having id name firstheading -->
+
+
+<!-- DOM manipulation allows you to change the values and structure of a webpage using JavaScript. -->
+<!-- document.getElementbyId('firstheading').innerHTML = "<h1>gevfh</h1>" -->
+
+
+<!-- Element by Id method to select Object by ID name-->
+<!-- document.getelementbyID 
+document.getElementById('title') returns h1 object or tag
+
+we can also get attribute of element by
+document.getElementById('title').getAttribute('id')
+returns the value which is associated with element
+document.getElementById('title').getAttribute('class')
+
+Here class attribute value is heading can also change with setAttribute
+document.getElementById('title').getAttribute('class', 'test')
+
+document.getElementById('title').style.backgroundColor = 'green'
+can also change color & padding etc.
+
+textContent,innerHTML,innerText all return same value
+document.getElementById('title').innerHTML/textContent/innerText
+
+innerText return text which is only visible 
+textContent return all text which is visible & not visible by CSS styling 
+innerHTML return visible text & not visible HTML tags  
+
+
+queryselector in DOM
+document.queryselector(h1/p) select the query which is passed as argument if h1 is passed or p selects first tag only not all tags of p or h1
+
+selects documents with id
+document.queryselector(#title)
+
+selects documents with classname
+document.queryselector(.heading)
+
+selects input fields
+document.querySelector('input[type="password"]')
+
+selects the items from list
+document.querySelector('ul')​
+const firstul = document.querySelector('ul')
+
+specific item
+firstul.querySelector('li')​
+
+changes color of item
+const red = firstul.querySelector('li')
+red
+
+queryselectorAll 
+selects all the tags which are passed as argument from document
+document.querySelectorAll('li')
+return o/p in nodelist format
+
+document.getElementbyClassName('heading')
+returns o/p in HTML collection format 
+To convert into array use
+const classlist = document.getElementbyClassName('heading')
+Array.from(classlist)
+
+-->
+
+
